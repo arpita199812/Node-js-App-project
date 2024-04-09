@@ -43,6 +43,11 @@ sudo apt update
 ```
 3. Install Git - [Guide by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-22-04) 
 4. Configure Node.js and `npm` - [Guide by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
+5. apt-get install nodejs
+6. After cloning the repo on ubuntu server then go into that repo by - cd Node-js-App-project/
+7. ls - get all the file under it, then make .env file and setup the file by give port and publishable and secret key, which you can create in stripe official website.
+8. And, you also need to install stripe this by this command - npm install stripe
+9. Also check his version by this comm. -  npm -version stripe
 
 ### Deploying the project on AWS
 
